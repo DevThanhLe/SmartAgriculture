@@ -4,10 +4,6 @@
   #include <HTTPClient.h>
   #include <Firebase_ESP_Client.h>
 
-  // Thông tin Wifi
-  // const char* ssid = "Xuan Chung 5GHz";
-  // const char* password = "0908286753";
-
   #define API_KEY "";
   #define DATABASE_URL "";
   #define USER_EMAIL "";
@@ -18,6 +14,7 @@
   FirebaseAuth auth;
   FirebaseConfig config;
 
+ // Thông tin Wifi
   const char* ssid = "iotz";
   const char* password = "1234567891"; 
 
